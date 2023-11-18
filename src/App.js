@@ -1,7 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import MainLayout from "./Components/MainLayout";
 
 function App() {
-  return <h1 className="text-center">Hello</h1>;
+  return (
+    <div>
+      <MainLayout />
+    </div>
+  );
 }
 
 export default App;
