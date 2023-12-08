@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(to bottom, #bdf2ff, #00a7e1);
+  color: white;
+}
+
+.test {
+  background-color: #007bff; /* Hellblau, ähnlich wie im Farbverlauf des Hintergrunds */
+  color: #fff; /* Weiße Textfarbe */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.test:hover {
+  background-color: #0056b3;
+}
+
+.pa {
+  font-size: 20px; /* Größere Textgröße für das Ergebnis */
+  font-weight: bold; /* Fettschrift für Betonung */
+  color: #007bff; /* Farbe des Textes */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Schatten für den Text */
+  padding: 10px; /* Innenabstand für bessere Lesbarkeit */
+  background-color: #f8f9fa; /* Hintergrundfarbe */
+  border-radius: 8px; /* Abgerundete Ecken */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Schatten um das Element */
+}
